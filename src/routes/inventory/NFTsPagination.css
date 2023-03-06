@@ -1,0 +1,57 @@
+@import '../../components/common.css';
+
+.paginationContainer {
+    display: flex;
+    align-items: center;
+}
+
+.btnJump {
+    width: 48px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background: linear-gradient(90deg, white, white) padding-box, linear-gradient(to right, #3C67FE, #9153F5) border-box !important;
+    border: 1px solid transparent !important;
+}
+
+.btnJump:hover {
+    opacity: 0.7;
+}
+
+.pageInformation {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #272727;
+    display: inline-block;
+}
+
+.pageText {
+    margin: 0 10px;
+}
+
+.pageTotalText {
+    margin: 0 15px;
+}
+
+.currentPage {
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #DBC6FF
+}

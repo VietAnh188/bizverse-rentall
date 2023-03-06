@@ -1,0 +1,5 @@
+@import '../../../../components/common.css';
+
+.searchFilterPopover {
+    background-color: var(--bizverse-primary-color);
+}

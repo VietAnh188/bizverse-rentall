@@ -1,0 +1,31 @@
+# This is a sample build configuration for deploying a React app to Amazon Web Services S3 Storage from https://programming-is-easy.com
+image: node:12.22.9
+
+pipelines:
+ branches:
+  master:
+    - step:
+        runs-on: self.hosted
+        size: 4x
+        name: Build
+        caches:
+          - node
+        script:
+          - cp env_production .env
+          - rm yarn.lock
+          - yarn install
+          - yarn build
+        artifacts:
+          - build/**
+    - step:
+       runs-on: self.hosted
+       name: Deploy
+       #deployment: stage
+       script:
+        - pipe: atlassian/aws-s3-deploy:0.3.7
+          variables:
+            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+            AWS_SECRET_ACCESS_KEY: $AWS_ACCESS_KEY
+            AWS_DEFAULT_REGION: 'ap-southeast-1'
+            S3_BUCKET: 'bizverse-rentall'
+            LOCAL_PATH: 'build'

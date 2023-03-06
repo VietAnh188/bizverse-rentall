@@ -1,0 +1,8 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+.disabledView {
+    opacity: 0.8;
+    pointer-events: none;
+    color: black
+}

@@ -1,0 +1,66 @@
+@import '../../../../../components/common.css';
+.checkBoxContainer {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.checkBoxSection {
+    width: 1%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+.checkBoxLabel {
+    width: 99%;
+}
+.textSection {
+    padding-right: 7px;
+}
+.toggleLink, .toggleLink:focus {
+    outline: 0;
+    text-decoration: none;
+}
+.toggleIcon {
+    margin-top: -2px;
+    margin-left: 2px;
+}
+.showHideBtn {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+	width: auto;
+	outline: 0;
+	background: transparent;
+	color: var(--bizverse-secondary-color);
+	font-weight: inherit;
+	word-wrap: break-word;
+	line-height: 18px;
+	letter-spacing: normal;
+	font-size: 16px;
+	border: 0px;
+}
+.showHideBtn.focus,
+.showHideBtn:focus,
+.showHideBtn:active,
+.showHideBtn:active:focus,
+.showHideBtn:focus,
+.showHideBtn:hover {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+	width: auto;
+	outline: 0;
+	color: var(--bizverse-secondary-color);
+	font-weight: inherit;
+	word-wrap: break-word;
+	line-height: 18px;
+	letter-spacing: normal;
+	font-size: 16px;
+	border: 0px;
+	text-decoration: none;
+    background: transparent;
+}
+@media screen and (max-width: 768px) {
+    .checkBoxContainer {
+        width: 100%;
+    }
+}

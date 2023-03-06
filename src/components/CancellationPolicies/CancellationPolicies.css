@@ -1,0 +1,158 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .landingContainer {
+	max-width: var(--max-content-width);
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	color: rgb(0, 0, 0);
+}
+.landingTitle {
+	font-size: 44px;
+	font-weight: normal;
+}
+h1:first-child {
+	margin-top: 0px;
+}
+p {
+	font-size: 14px
+}
+.subText {
+	font-size: 14px;
+	color: #000000;
+}
+.textWhite {
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	text-align: justify;
+}
+.panelHeader {
+	border-radius: 0 0 15px 15px;
+	width: 100%;
+	position: relative;
+	display: block;
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 120px;
+	border: none;
+	background: #fff;
+}
+.panelHeader::before {
+	content: "";
+	position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, #3C67FE, #9153F5);
+    padding: 2px;
+    border-radius: 15px;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.tabItem {
+	display: block;
+	padding: 14px 15px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	color: #000000;
+	cursor: pointer;
+}
+.tabItem:hover {
+	text-decoration: none;
+	background: linear-gradient(45deg, #3C67FE 14.64%, #9153F5 85.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active .tabItem {
+	background: linear-gradient(45deg, #3C67FE 14.64%, #9153F5 85.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-decoration: none;
+}
+.active .tabItem::after {
+	content: "";
+	display: block;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #3C67FE 14.64%, #9153F5 85.36%);
+}
+.noMargin {
+	margin: 0px;
+	background:#fff;
+	border-bottom: solid 1px;
+	border-image: linear-gradient(45deg, #3C67FE 14.64%, #9153F5 85.36%) 10;
+}
+.lineGraph {
+	margin-top: 100px;
+	padding-bottom: 50px;
+	position: relative;
+}
+.graphContainer {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.timeLine {
+	text-align: center;
+	height: 24px;
+}
+.timeLinePoint {
+	position: absolute;
+	right: -30px;
+	top: 0;
+}
+.refund {
+	background-color: #3fb34f;
+}
+.semiRefund {
+	background-color: #ffb400;
+}
+.nonRefund {
+	background-color: var(--btn-primary-bg);
+}
+.toolTop {
+	position: relative;
+	opacity: 1;
+	padding: 6px 10px;
+	left: -50%;
+	top: -60px;
+}
+.toolMarker {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: absolute;
+	top: 6px;
+	left: -6px;
+	background: #fff;
+}
+.toolLable {
+	position: relative;
+	left: -50%;
+	top: 3px;
+	text-align: center;
+}
+.toolText {
+	margin-top: 30px;
+}
+.FlexibleTop {
+	margin: 102px 0 0;
+}
+.strictPadding {
+	padding-bottom: 25px;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.panelHeader {
+		padding-bottom: 195px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.hidesm {
+		display: none;
+	}
+	.panelHeader {
+		padding-bottom: 0;
+	}
+	.strictPadding {
+		padding-bottom: 0;
+	}
+}

@@ -1,0 +1,8 @@
+# install crontab 
+sudo apt install cron
+# chose 1
+# access to the crontab panel
+crontab -e
+
+# call api to update the ReservationState which transact over 15 minutes 
+*/1 * * * * wget http://localhost:3000/rest/crontab

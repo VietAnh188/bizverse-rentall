@@ -1,0 +1,78 @@
+@import "../common.css";
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  border: 2px solid transparent;
+  background: linear-gradient(94.59deg, #3c67fe 4.37%, #9153f5 100%);
+  border-radius: 50%;
+}
+.overviewIcon {
+  width: 100%;
+  min-width: 18px;
+  height: auto;
+  text-align: center;
+  filter: invert(100%);
+}
+.textMuted,
+.textMuted:hover,
+.textMuted:focus,
+.textMuted:hover:focus {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: inherit;
+}
+.reviewStar {
+  display: inline;
+  position: relative;
+  float: left;
+}
+.introPadding {
+  padding-bottom: 15px;
+}
+.hostNameText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.personalHomeIcon {
+  position: relative;
+  top: 2px;
+}
+
+.titleText {
+  color: rgb(0, 0, 0);
+}
+
+.sectionSplitter {
+  height: 0.8px;
+  background: linear-gradient(99.56deg, #3c67fe 20%, #9153f5 60%);
+}
+
+@media screen and (max-width: 640px) {
+  .introCenter {
+    text-align: center;
+  }
+  .bookItPanel {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 767px) {
+  .profileAvatar {
+    height: 54px;
+    width: 54px;
+  }
+  .profileAvatarNew {
+    height: 100px;
+    width: 100px;
+  }
+}

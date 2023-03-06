@@ -1,0 +1,46 @@
+@import '../../common.css';
+ .searchContainer {
+	font-size: 19px;
+	line-height: 24px;
+	border-radius: 6px;
+	padding: 0px;
+	table-layout: fixed;
+	height: 42px;
+	width: 100%;
+	position: relative;
+	max-width: 400px;
+	margin-top: 8px;
+	box-shadow: none;
+    background: linear-gradient(94.59deg, #fff, #fff) padding-box, linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) border-box;
+    border: 1px solid transparent;
+}
+.searchIconContainer {
+	width: 45px;
+	padding-left: 12px;
+}
+.searchIcon {
+	height: 24px;
+	width: 24px;
+	display: block;
+	fill: #9153F5;
+}
+.geosuggest {
+	outline: none;
+	width: 100% !important;
+	margin: 0px !important;
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	.searchContainer {
+		max-width: 295px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.searchContainer {
+		max-width: 440px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.searchContainer {
+		margin-top: 0px;
+	}
+}

@@ -1,0 +1,29 @@
+@import '../../variables.css';
+@import '../../helpers.css';
+.panelSpace{
+  padding-right: 20px;
+}
+.panelEmpty{
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #000000;
+}
+.nolistTitle{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+.noResults {
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.textCenter{
+  text-align: center;
+}

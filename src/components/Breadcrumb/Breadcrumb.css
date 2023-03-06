@@ -1,0 +1,57 @@
+@import '../../components/common.css';
+.breadcrumbContainer {
+	background-color: transparent;
+	padding-top: 14px;
+	padding-bottom: 14px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.breadcrumbItem {
+	display: inline-block;
+	margin-right: 18px;
+	color: rgba(97, 95, 95, 0.747);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.home {
+	color: rgba(97, 95, 95, 0.747);
+}
+
+.home:hover {
+	color: var(--bizverse-secondary-color);
+	cursor: pointer;
+}
+
+.breadcrumbItemActive {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.iconArrow {
+	margin-left: 18px;
+}
+
+.iconArrowRemoveMarginLeft {
+	margin-left: unset;
+}
+
+.textCustomMarginLeft {
+	margin-left: 15px;
+}

@@ -1,0 +1,9 @@
+@import '../../components/common.css';
+@import '../Help//Help.css';
+
+.textOpen {
+    text-align: justify;
+}
+.topicContent b, .topicContent span {
+    display: contents !important;
+}

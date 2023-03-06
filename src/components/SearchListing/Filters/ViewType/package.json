@@ -1,0 +1,6 @@
+{
+    "name": "ViewType",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ViewType.js"
+}

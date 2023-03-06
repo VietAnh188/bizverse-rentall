@@ -1,0 +1,12 @@
+@import '../../common.css';
+.root {
+  margin: 0;
+}
+.exitText{
+  color: var(--btn-secondary-bg) !important;
+}
+@media screen and (max-width: 767px){
+  .hideSm{
+    display: none !important;
+  }
+}

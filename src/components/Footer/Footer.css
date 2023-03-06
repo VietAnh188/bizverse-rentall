@@ -1,0 +1,283 @@
+@import "../variables.css";
+@import "../helpers.css";
+.root {
+  background: transparent;
+  color: rgb(253, 253, 253);
+  padding: 0px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: var(--max-container-width);
+  border-top: 1px solid #9B9B9B;
+}
+.footerSectionContainer {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  position: relative;
+  padding: 48px 0px;
+  display: block;
+  line-height: 1.43;
+  font-size: 14px;
+}
+.iconConnect {
+  display: flex;
+  justify-content: end;
+}
+.shareIconFB,
+.shareIconTw,
+.shareIconTele {
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: right;
+  font-size: 15px;
+  cursor: pointer;
+}
+.shareIconTele img {
+  filter: invert(1);
+  height: 30px;
+  width: 30px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 4px;
+}
+.shareIconFB svg, .shareIconTw svg {
+  border: 2px white solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+.shareIconFB:hover,
+.shareIconFB:focus,
+.shareIconFB:hover svg,
+.shareIconFB:focus svg {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.shareIconTw:hover,
+.shareIconTw:focus,
+.shareIconTw:hover svg,
+.shareIconTw:focus svg {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.textLink {
+  color: #ffffff9f;
+  font-weight: normal;
+  padding: 0px 0px;
+  margin: 0px;
+  line-height: 1.1;
+  cursor: pointer;
+}
+.textLink:hover,
+.textLink:focus,
+.textLink:hover:focus {
+  color: #ffffff;
+}
+.listContainer {
+  padding: 0px;
+  margin-top: 16px;
+  list-style-type: none;
+}
+.landingLabel {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+}
+.imgSiteName {
+  position: relative;
+  padding-bottom: 16px;
+}
+.responsivePadding {
+  padding: 0px 15px !important;
+  display: flex;
+  align-items: center;
+}
+.imgAppConnect {
+  display: flex;
+  justify-content: center;
+}
+.andriodIcon {
+  margin: 38px 0 0;
+  position: relative;
+}
+.andriodIcon img {
+  width: auto;
+  max-height: 45px;
+}
+.iosIcon {
+  margin: 38px 0 0;
+}
+.iosIcon img {
+  width: auto;
+  max-height: 47px;
+  margin: -2px 0 0 -31px;
+}
+.topImageBanner {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background: url("../../../public/SiteImages/imgFooter.png") center no-repeat;
+  background-size: cover;
+}
+.topImageBanner::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+.positionRelative {
+  position: relative;
+  background-color: #ffffff;
+}
+.displayInlineBlock {
+  display: inline-block;
+}
+.anroidImg {
+  width: 100%;
+  max-width: 100px;
+}
+.iosImg {
+  width: 100%;
+  max-width: 110px;
+  margin-left: 15px;
+}
+
+.addCursor {
+  cursor: pointer;
+}
+
+.customPosition {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.closeIcon {
+  text-align: right;
+  cursor: pointer;
+  position: relative;
+}
+
+.closeIcon::after {
+  content: '';
+  background: #000;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+}
+
+.modalContent {
+  text-align: center;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .xsHidden {
+    display: none;
+  }
+  .imgAppConnect {
+    display: block;
+  }
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .footerSectionContainer {
+    max-width: 960px;
+  }
+  .iosIcon img {
+    width: auto;
+    max-height: 46px;
+    margin: -2px 0 0 -11px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .iosImg {
+    max-width: 95px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .anroidImg {
+    max-width: 86px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .iosImg {
+    width: 100%;
+    max-width: 73px;
+    margin-left: 3px;
+    margin-top: 0px;
+  }
+  .anroidImg {
+    max-width: 67px;
+  }
+  .copyRightTabNoMargin {
+    margin: 30px 0px 0px 0px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 23px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .iosIcon img {
+    width: auto;
+    max-height: 47px;
+    margin: -2px 0 0 -15px;
+  }
+}
+@media (max-width: 767px) {
+  .iosIcon img {
+    width: auto;
+    max-height: 48px;
+    margin: -2px 0 0 0px;
+  }
+  .allPaddingMobile {
+    padding: 0 20px;
+  }
+  .iosIcon {
+    margin: 33px 0 0;
+  }
+  .andriodIcon {
+    margin: 33px 0 0;
+  }
+  .copyrightSection {
+    padding: 0px 15px;
+  }
+}
+@media screen and (max-width: 1200px ) and (min-width: 767px) {
+  .responsivePadding {
+    display: flex;
+    align-items: center;
+  }
+}
+/* @media screen and (max-width: 991px) {
+  
+} */
+@media screen and (max-width: 767px) {
+  .responsiveMargin {
+    margin-bottom: 12px !important;
+  }
+  .anroidImg {
+    max-width: 130px;
+  }
+  .iosImg {
+    max-width: 141px;
+  }
+  .noPaddingMobile {
+    padding: 0px;
+  }
+  .responsivePadding {
+    display: block;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../../helpers.css';
+@import '../WishLists.css';
+/** RentAll - Begin **/
+.formGroup {
+  margin-bottom: 6px !important;
+}
+.labelText{
+	font-size: 15px;
+  color: #ffffff;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+}
+.fullWidth {
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+.formGroup {
+	margin-bottom: 16px;
+	position: relative;
+}
+.formSection {
+	overflow: hidden;
+}
+.noPadding {
+	padding: 0px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.modalCaptionLink {
+	/* color: var(--btn-secondary-bg); */
+	color: #C00297;
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	/* color: var(--btn-secondary-bg); */
+	color: #d209a6;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.horizontalLineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 15px 0px;
+	width: 100%;
+	color: #767676;
+	text-align: center;
+	font-size: 14px;
+}
+.iconPosition {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+.backgroundOne {
+	background: url("../../../public/SiteIcons/mailDark.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundTwo {
+	background: url("../../../public/SiteIcons/lockDark.png") no-repeat;
+	background-position: 98% 50%;
+}

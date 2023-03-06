@@ -1,0 +1,7 @@
+query ListingBookedDates($listId:Int!) {
+  getListBookedDates (listId:$listId) {
+  	bookedDates
+    status
+    errorMessage
+  }
+}

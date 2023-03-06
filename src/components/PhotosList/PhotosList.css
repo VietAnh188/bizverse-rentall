@@ -1,0 +1,48 @@
+@import '../../components/variables.css';
+ .listPhotoCover {
+	display: block;
+	height: 185px;
+	backface-visibility: hidden;
+	position: relative;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	text-align: center;
+	margin-top: 15px;
+}
+.listPhotoMedia {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+.imgResponsive {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+}
+
+.panoramaSelection {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	width: 148px;
+	height: 30px;
+	background: var(--btn-primary-bg);
+	color: #FFF;
+	font-size: 14px;
+	border-radius: 5px 12px 12px 5px;
+	line-height: 30px;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+
+.checkboxPanorama {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: 0 5px 0 0 !important;
+	cursor: pointer;
+}

@@ -1,0 +1,67 @@
+@import '../common.css';
+@import '../../helpers.css';
+.reviewContainer {
+	position: relative;
+}
+.alignMiddle {
+	vertical-align: middle;
+	display: table-cell;
+}
+.mediaContainer {
+	display: inline-block;
+	position: relative;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border: 2px solid transparent;
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	border-radius: 50%;
+}
+.avatarDisplay {
+	display: table-cell;
+}
+.display {
+	display: inline-block;
+}
+.infoAlign {
+	margin-left: 16px;
+}
+.commentSection {
+	margin: 0px;
+	word-wrap: break-word;
+	font-size: 16px;
+}
+.textBold {
+	font-weight: bold;
+	font-size: 16px;
+}
+.starReview {
+	display: inline;
+	padding-top: 10px;
+	position: relative;
+	float: left;
+}
+.textLeft {
+	margin-left: 5px;
+}
+.horizontalLineThrough:last-child {
+	border: 0px;
+}
+.btnRadius {
+	border-radius: 0px;
+}
+.linkBtn {
+	border-radius: 4px;
+	padding: 9px 21px;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+.noBackground {
+	background: transparent !important;
+}

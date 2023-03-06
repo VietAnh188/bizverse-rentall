@@ -1,0 +1,132 @@
+@import "../../components/common.css";
+
+.container {
+  margin: 0 auto;
+  color: #000;
+  max-width: var(--max-content-width);
+  padding: 0 0px 30px 0px;
+}
+.rowNFT {
+  min-height: 260px;
+}
+.rowNFT .imgNFT,
+.imgPlace {
+  height: 300px;
+}
+.imgPlace img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.titleContents {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4cd4ff;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  overflow: hidden;
+  word-break: break-word;
+}
+.textVal {
+  font-weight: 700;
+}
+.splitter {
+  margin: 10px 0;
+  height: 0.8px;
+  background: linear-gradient(99.56deg, #3c66fe6b 20%, #9153f569 60%);
+}
+.descriptionNFT {
+  text-align: justify;
+}
+.btnNFT {
+  display: flex;
+  justify-content: end;
+}
+.btnNFT button {
+  white-space: nowrap;
+}
+.btnNFT button {
+  margin-right: 10px;
+}
+.qrcode {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.btnNFTFlex {
+  margin-bottom: 16px;
+}
+.qrcode .imgQRCode {
+  height: 180px;
+  width: 180px;
+}
+.titleQRCode {
+  width: 155px;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+.iconDownload {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+.iconDownload:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  transition: background-color 0.5s;
+}
+.qrNFT p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nftButton:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:1120px) {
+  .rowNFT {
+    padding: 0 10px 0 10px;
+  }
+  .descriptionNFT,
+  .qrNFT,
+  .btnNFT {
+    padding: 0 10px 0 10px;
+  }
+}
+@media (max-width: 991px) {
+  .rowNFT {
+    height: auto;
+  }
+  .titleContents {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 530px) {
+  .btnNFT {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .qrcode {
+    display: block;
+  }
+}
+@media (max-width: 380px) {
+  .btnNFT button {
+    margin-top: 5px;
+  }
+  .btnNFT {
+    display: block;
+  }
+  .qrcode {
+    display: block;
+  }
+}

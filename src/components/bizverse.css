@@ -1,0 +1,100 @@
+.bizverseBox {
+    background: #fff;
+    box-shadow: 0px 0px 6px 0px #00000026;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+.bizverseBoxTrans {
+    background: transparent;
+}
+.bizverseBoxPrimary {
+    border: 2px solid transparent !important;
+    border-radius: 4px !important;
+    color: white;
+}
+
+.bizverseBoxSecondary {
+    /* border: 1px solid transparent !important; */
+}
+
+.bizverseLink {
+    color: #9153F5 !important;
+    background-color: transparent !important;
+}
+
+.bizverseBorder {
+    border-image: linear-gradient(to right, #3C67FE, #9153F5) 10 !important;
+}
+
+.bizverseBorderTop {
+    border-top: 1px solid !important;
+}
+
+.bizverseBorderLeft {
+    border-image: linear-gradient(to bottom, #3C67FE, #9153F5) 10 !important;
+    border-left: 1px solid !important;
+    background-color: transparent !important;
+    color: rgb(0, 0, 0) !important
+}
+
+.bizverseBorderBottom {
+    border-bottom: 1px solid !important;
+}
+
+.bizverseButtonSecondary {
+    border: 0.5px solid #9153F5 !important;
+    box-sizing: border-box !important;
+    border-radius: 6px !important;
+    background-color: transparent !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 17px !important;
+    color: #9153F5 !important;
+}
+
+.bizverseButtonSecondary:hover, .bizverseButtonSecondary:focus, .bizverseButtonSecondary:active {
+    opacity: 0.8 !important;
+}
+
+.bizverseSplitter {
+	height: 1px;
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+
+/* Tabs */
+.bizverseTab {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    padding-bottom: 10px !important;
+}
+
+.bizverseTab:hover {
+    opacity: 0.8;
+}
+
+.bizverseTabActive {
+    background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	background-clip: text !important;
+	text-fill-color: transparent !important;
+	text-decoration: none !important;
+}
+
+.bizverseTabActiveBorderContainer {
+    position: relative !important;
+}
+
+.bizverseTabActiveBorderContainer::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}

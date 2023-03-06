@@ -1,0 +1,11 @@
+query getReservation($reservationId: Int!) {
+  getReservation (reservationId: $reservationId) {
+    id
+    hostId
+    guestId
+    guests
+    checkIn
+    checkOut
+    nftIds
+  }
+}

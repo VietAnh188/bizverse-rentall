@@ -1,0 +1,178 @@
+@import "../../helpers.css";
+/** Common - Start **/
+.btnBlock, .btnBlock:hover,
+.btnBlock:focus {
+  width: 150px;
+  position: relative;
+  white-space: normal;
+  display: block;
+  font-size: 16px;
+  background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+  border: none !important;
+}
+.btnBlock:hover {
+  box-shadow: 0 4px 10px 0 #3C67FE !important ;
+}
+.formControlSelect {
+  margin-bottom: 8px;
+  display: block;
+  overflow: hidden;
+  appearance: none;
+  position: relative;
+}
+.formControlSelect::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 5px;
+  bottom: 15%;
+  background-image: url("../../../../public/chevron-down.svg") !important;
+  background-repeat: no-repeat;
+  background-position: 96% 7px;
+  background-size: 25px 25px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+/** Common - End **/
+/** Search Form - Start **/
+.searchFormInputs {
+  display: table;
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  table-layout: auto;
+  width: 100%;
+}
+.table {
+  width: 100%;
+  display: table;
+}
+.tableRow {
+  display: table-row;
+  width: 100%;
+}
+.tableCell {
+  padding: 15px 0 0;
+  vertical-align: middle;
+  margin: 0;
+}
+.location,
+.dates {
+  width: 100%;
+}
+.guests {
+  width: 100%;
+  position: relative;
+}
+.guests::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  filter: invert(1);
+  right: 5px;
+  bottom: 15%;
+  background-image: url("../../../../public/chevron-down.svg") !important;
+  background-repeat: no-repeat;
+  background-position: 96% 7px;
+  background-size: 25px 25px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.search {
+  padding: 15px 0 0;
+  float: right;
+}
+.label {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0 0 10px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+}
+.geoSuggestContainer .input,
+.input,
+.input:hover,
+.input:focus {
+  margin: 0px;
+  border-radius: 8px;
+  box-shadow: none;
+  letter-spacing: -0.5px;
+  border: 1px solid #E4E4E4 !important;
+  background: transparent;
+  padding: 8px 32px 8px 10px;
+}
+.inputNoBorder {
+  border: none;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.664);
+}
+.selectBorder {
+  border-radius: 8px !important;
+  height: 50px !important;
+  color: #fff;
+}
+.selectBorder option {
+  color: #000;
+}
+.loadfield {
+  border: 1px solid #dce0e0 !important;
+  padding: 0 110px !important;
+  border-radius: 8px !important;
+  height: 50px;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  letter-spacing: 0px !important;
+  color: #484848 !important;
+}
+.geoSuggestContainer {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.searchElement {
+  display: block !important;
+  margin-bottom: 0px;
+  min-height: 45px;
+}
+@media screen and (max-width: 767px) {
+  .location,
+  .dates,
+  .guests {
+    width: 100%;
+  }
+  .tableCell {
+    border-right: 0px;
+    display: block;
+  }
+  .tableCell:not(first-child) {
+    border-right: inherit;
+  }
+}
+@media screen and (max-width: 640px) {
+  .selectPadding {
+    padding: 0px;
+  }
+  .btnBlock {
+    padding: 10px 0 !important;
+  }
+}
+@media (max-width: 350px) {
+  .tableCell {
+    padding: 5px 0 0;
+  }
+  .label {
+    margin: 0 0 5px;
+  }
+}
+/** Search Form - End **/

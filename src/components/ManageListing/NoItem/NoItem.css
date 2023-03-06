@@ -1,0 +1,27 @@
+@import '../common.css';
+.panelSpace{
+    padding-right: 20px;
+}
+.nolistTitle{
+    font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: rgb(0, 0, 0);
+}
+.noListContent {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.panelEmpty{
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #484848;
+	background: #F7FAFF;
+	border-color: transparent;
+}

@@ -1,0 +1,10 @@
+@import '../common.css';
+@import '../../../helpers.css';
+
+.iconPanorama {
+	position: absolute;
+	z-index: 2;
+	padding: 5px;
+	width: 36px;
+	height: 36px;
+}

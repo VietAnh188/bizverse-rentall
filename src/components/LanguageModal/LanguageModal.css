@@ -1,0 +1,21 @@
+@import '../variables.css';
+@import '../common.css';
+.currentCountryFlagMenu,.itemCountryFlagMenu{
+    margin: 0 10px;
+    font-size: 24px;
+}
+.activeItemRight {
+    font-size: 15px;
+    font-weight: normal;
+	cursor: pointer;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	color: #000000;
+}
+.activeItemRight:hover,
+.activeItemRight:focus,
+.activeItemRight:active {
+	background: linear-gradient(94.59deg, #3c66fe2e 4.37%, #9153f550 100%);
+	color: #000000;
+}

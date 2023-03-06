@@ -1,0 +1,123 @@
+@import '../../../components/variables.css';
+
+/** RentAll - Begin **/
+
+.hostingsection {
+	margin-bottom: 20px;
+}
+.mainhedding h1 {
+	font-size: 50px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+.mainhedding::after {
+	content: "";
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	width: 94px;
+	display: block;
+	height: 1.5px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.steps {
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.steps .circle {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background: linear-gradient(94.59deg, #3c66febe 4.37%, #9153f5be 100%);
+	box-shadow: inset 0px 4px 20px rgba(64, 90, 220, 0.6);
+	border-radius: 50%;
+    box-sizing: border-box;
+	color: white;
+}
+.steps .circle::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(to right, #3C67FE, #9153F5);
+	padding: 2px;
+	border-radius: 50%;
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.steps .circle span {
+	display: block;
+	margin: auto;
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+}
+.steps a {
+	font-size: 17px;
+}
+h4.common {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+p.common {
+	font-size: 16px;
+	line-height: 1.7;
+	font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+	h4.common {
+		font-size: 23px;
+		font-weight: 600;
+	}
+	.whyblock {
+		margin-bottom: 35px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.mainhedding h1 {
+		font-size: 36px;
+		line-height: 51px;
+		margin-bottom: 13px;
+		color: rgb(0, 0, 0);
+	}
+	.steps, .circle::before {
+		margin-top: 44px;
+	}
+	.hostingsection {
+		margin-bottom: 85px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mainhedding h1 {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.steps, .circle::before {
+		margin-top: 24px;
+	}
+	h4.common {
+		font-size: 20px;
+	}
+	.hostingsection {
+		margin-bottom: 45px;
+	}
+	p.common {
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 400;
+	}
+}

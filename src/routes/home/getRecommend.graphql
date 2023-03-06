@@ -1,0 +1,36 @@
+{
+  getRecommend {
+    id
+    title
+    personCapacity
+    beds
+    bookingType
+    coverPhoto
+    reviewsCount,
+    reviewsStarRating,
+    isPayLater
+    listPhotos {
+      id
+      name
+      type
+      status
+      isPanorama
+    }
+    user {
+      id
+      userBanStatus
+    }
+    listingData {
+      basePrice
+      currency
+    }
+    settingsData {
+      listsettings {
+        id
+        itemName
+      }
+    }
+    wishListStatus
+    isListOwner
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ListingApprovalManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListingApprovalManagement.js"
+}

@@ -1,0 +1,15 @@
+@import "../../components/variables.css";
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  margin: 0px auto;
+  max-width: var(--max-content-width);
+}
+.mainSection {
+  background: #fff;
+  margin: 0 15px 60px 15px;
+  box-shadow: 0px 0px 9px 0px #00000026;
+  border-radius: 8px;
+}

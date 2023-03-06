@@ -1,0 +1,155 @@
+@import '../../../variables.css';
+@import '../../admin-common.css';
+@import '../../admin-form.css';
+
+.root {
+  padding: 24px 0 24px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 380px;
+}
+/** RentAll - Begin **/
+.logInModalContainer {
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+.logInModalBody {
+  padding: 0px;
+  background-color: #f7faff;
+}
+.circle {
+	width: 100%;
+	background: #fff;
+	height: 20px;
+	max-width: 20px;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid var(--btn-primary-bg);
+	left: 36px;
+	top: 34px;
+	z-index: 5;
+}
+.lineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 12px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+.lineThrough::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  margin-top: -5px;
+  margin-left: -20px;
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+  content: '';
+}
+.lineThrough::after {
+  position: absolute;
+  top: 49%;
+  z-index: -2;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  content: '';
+}
+.formGroup {
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+.formSection {
+  overflow: hidden;
+}
+.noPadding {
+  padding: 0px;
+}
+.textAlignRight {
+  text-align: right;
+}
+.textAlignLeft {
+  text-align: left;
+}
+.modalCaptionLink {
+    color: #008489;
+}
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+.btnPrimary {
+    border-color: var(--btn-primary-bg);
+    background-color: var(--btn-primary-bg);
+    color: #fff;
+}
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: var(--btn-primary-bg);
+  background-color: var(--btn-primary-bg);
+  color: #fff;
+}
+.btnSmall {
+    padding: 5px 0px;
+    width: 100px;
+    margin: 10px 0;
+}
+.commentSection {
+    height: auto;
+    background-color: #cacdd1;
+    margin: 10px 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.commentDate {
+  color: #6b778c;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: pre;
+}
+.textareaInput{
+  min-height: 80px !important;
+}
+.histryCircle {
+  left: 2px !important;
+  top: 24px !important;
+}
+
+@media  screen and (max-width: 991px) {
+  .histryCircle {
+    left: -37px !important;
+    top: 44px !important;
+  }
+  .dateWidthMobile {
+    width: 15% !important;
+  }
+}

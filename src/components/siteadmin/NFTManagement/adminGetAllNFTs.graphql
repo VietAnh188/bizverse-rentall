@@ -1,0 +1,38 @@
+query ($page: Int!, $limit: Int, $searchText: String) {
+    adminGetAllNFTs (page: $page, limit: $limit, searchText: $searchText) {
+      results {
+        rows {
+            id
+            name
+            thumbnail
+            country
+            city
+            checkIn
+            checkOut
+            guestNumber
+            beds
+            isSelling
+            nftState
+            claimWallet
+            requestUser
+            reservationId
+            isMappingReservation
+            isExpired
+            isClaimed
+            isOnMarketplace
+            owner
+            address
+            isHostMinted
+            isTrending
+            currentPrice
+            currency
+            listId
+            originalOwner
+            hostId
+        }
+        count
+      }
+      status
+      errorMessage
+    }
+  }

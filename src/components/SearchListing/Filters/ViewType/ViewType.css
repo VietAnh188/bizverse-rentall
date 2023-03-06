@@ -1,0 +1,5 @@
+@import '../../../../components/common.css';
+
+.inputRadio {
+    cursor: pointer;
+}

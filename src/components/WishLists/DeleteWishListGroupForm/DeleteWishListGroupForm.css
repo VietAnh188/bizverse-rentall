@@ -1,0 +1,26 @@
+.btnDeleteGroup {
+    display: flex;
+    justify-content: flex-end;
+}
+.titleDelete {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.buttonConfirmDelete {
+    font-size: 18px;
+    background: linear-gradient(94.59deg, #3c67fe 4.37%, #9153f5 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 12px;
+}
+.buttonCancel {
+    font-size: 18px;
+    color: #9153f5;
+    border: 0.5px solid #9153f5;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+    background: transparent;
+    padding: 9px 12px;
+}

@@ -1,0 +1,197 @@
+@import '../common.css';
+@import '../../../components/common.css';
+
+ .leanProgressContainer {
+	height: 5px;
+	background-color: #c8c8c8;
+	margin-bottom: 6px;
+}
+.leanProgressBar {
+	background-color: var(--bizverse-secondary-color);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+	transition: width 0.6s ease 0s;
+	width: 0;
+}
+.landingStep {
+	font-size: 14px;
+	color: #000000;
+}
+.listContent {
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+.labelText {
+	font-size: 14px;
+	color: var(--bizverse-secondary-color);
+	font-weight: normal;
+	line-height: 1.43;
+}
+.listPhotoCover {
+	display: block;
+	height: auto;
+	min-height: 160px;
+	backface-visibility: hidden;
+	position: relative;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #9153F5;
+	text-align: center;
+	border-radius: 5px;
+}
+.listPhotoMedia {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+.imgResponsive {
+	height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+	background-color: #F7FAFF;
+}
+.listDetailContent {
+	position: relative;
+}
+.panelBody {
+	margin: 0;
+	position: relative;
+	border-bottom: none;
+	padding: 20px;
+	margin-bottom: 22px;
+	border-radius: 5px;
+	box-shadow: none;
+}
+.iconRemove {
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	font-size: 20px;
+	color: #474646;
+	display: none;
+}
+.panelBody:hover .iconRemove {
+	display: block;
+}
+.icon {
+	font-weight: normal;
+	line-height: 1;
+	cursor: pointer;
+}
+.panelBodyAlert {
+	margin: 0;
+	padding: 15px 0px;
+	padding-top: 0px;
+	position: relative;
+}
+.alertBlock {
+	padding: 25px;
+	background-color: #c2e4e7;
+	position: relative;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.h5 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.alertText {
+	font-size: 14px;
+	color: white;
+	line-height: 1.43;
+}
+.textOverFlow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.formSelect{
+	height: 39px;
+	margin-left: 1em;
+	font-size: 16px;
+	border: 1px solid var(--bizverse-secondary-color);
+	background-color: transparent;
+	color: var(--bizverse-secondary-color);
+	vertical-align: bottom;
+	border-radius: 3px;
+	padding: 8px 30px 8px 8px;
+	background-size: 25px 17px !important;
+}
+.formSelectNew {
+	margin-left: 0px !important;
+	margin-top: 12px;
+	margin-bottom: 2px;
+}
+.heading{
+	font-weight: 600;
+    font-size: 18px;
+}
+.text{
+	margin: 23px 0 30px;
+}
+
+.selectBoxWrapper {
+    position: relative;
+	max-width: 280px;
+}
+
+.selectBoxWrapper::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: block;
+	pointer-events: none;
+	position: absolute;
+	right: 5px;
+	bottom: 20%;
+	background-image: url("../../../../public/chevron-down.svg");
+	background-repeat: no-repeat;
+	background-position: 96% 7px;
+	background-size: 25px 25px !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+	.iconRemove {
+		position: relative;
+		display: block;
+		right: unset;
+	}
+}
+@media screen and (max-width: 991px) {
+	.listPhotoCover { 
+		min-height: 100%;
+		margin-bottom: 12px;
+	}
+	.listPhotoMedia {
+		position: relative;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		top: 0;
+	}
+	.imgResponsive {
+		padding-top: 60%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.formSelect {
+		width: 100%;
+	}
+	.marginTopMb{
+		margin-top: 15px;
+	}
+}

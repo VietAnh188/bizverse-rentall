@@ -1,0 +1,11 @@
+@import '../../../variables.css';
+@import '../../../helpers.css';
+.pngFontSize {
+    font-size: 15px;
+    position: absolute;
+    bottom: -42px;
+    right: 17px;
+}
+.positionRelative{
+    position: relative;
+}

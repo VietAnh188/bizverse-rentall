@@ -1,0 +1,73 @@
+@import "../common.css";
+@import "../../common.css";
+.sectionCaptionLink {
+  font-size: 14px;
+  color: var(--bizverse-secondary-color);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+  border-color: var(--bizverse-secondary-color);
+}
+.sectionCaptionLink:hover,
+.sectionCaptionLink:active,
+.sectionCaptionLink:focus {
+  color: #7932ed;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+}
+.imgSection {
+  width: 100%;
+  max-width: 24px;
+  max-height: 24px;
+  height: auto;
+  object-fit: contain;
+  filter: invert(39%) sepia(66%) saturate(4313%) hue-rotate(245deg)
+    brightness(100%) contrast(93%);
+}
+.listIcon {
+  display: inline-block;
+  width: 30px;
+  vertical-align: top;
+  margin-right: 6px;
+}
+.listContent {
+  display: inline-block;
+  width: 85%;
+  vertical-align: middle;
+}
+.lineBreak {
+  white-space: pre-line;
+}
+.justifyText {
+  text-align: justify;
+}
+.sectionSplitter {
+  height: 0.8px;
+  background: linear-gradient(99.56deg, #3c67fe 20%, #9153f5 60%);
+}
+
+.overviewListingContent {
+  padding-bottom: 10px;
+}
+
+.overviewListingButton {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.titleBold {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.labelText {
+  color: white;
+}
+
+.overviewListingBtn {
+	margin-right: 10px;
+}

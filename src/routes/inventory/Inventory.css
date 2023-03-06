@@ -1,0 +1,405 @@
+@import '../../components/common.css';
+
+.container {
+  margin: 0px auto;
+  padding: 30px 0px 0px 0px;
+  max-width: var(--max-content-width);
+  color: #272727;
+}
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+}
+
+.nftsContentContainer {
+  padding: 20px 10px 0;
+}
+
+.nftsContainer {
+  padding: 0 10px 30px;
+  min-height: 454px;
+}
+
+.nftWrapper {
+  padding: 10px 5px;
+}
+
+.nft {
+  min-height: 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: #272727;
+  padding: 6px;
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.nft:hover {
+  box-shadow: 0px 0px 20px rgba(87, 97, 252, 0.7);
+  border-radius: 4px;
+}
+
+.nftMenuWrapper {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.nftBtnMenu {
+  z-index: 3;
+  margin-top: 10px;
+  padding: 0 4px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.nftContent {
+  padding: 0 8px;
+}
+
+.nftThumbnailWrapper {
+  position: relative;
+}
+
+.nftStatesContainer {
+  position: absolute;;
+  bottom: 8px;
+  left: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nftState {
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: rgba(33,0,88,.8);
+  color: rgb(117, 241, 248);
+  padding: 2px 4px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.expiredNFT {
+  opacity: 0.7;
+}
+
+.nft.expiredNFT {
+  /* cursor: default; */
+}
+
+.nft.expiredNFT:hover {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.nftThumbnail {
+  height: 200px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.tabs {
+  margin: 0 -15px;
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nftName {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #4CD4FF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nftDetail {
+  font-weight: 600;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tabMenuItem {
+  font-weight: bold;
+  color: #272727;
+}
+
+.tabContent {
+  width: 100%;
+}
+
+.indicatorContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.noResults {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.dateRangeContainer {
+  position: relative;
+  z-index: 5;
+}
+
+.nftType {
+  border-bottom: 1px solid gray;
+  padding-top: 24px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+	text-decoration: none;
+  border-image: linear-gradient(to right, #3755f033, #ff029733) 10;
+  border-bottom: 1px solid;
+}
+
+.nftTypeActive {
+  border-image: linear-gradient(to right, #3C67FE 0%, #9153F5 100%) 10;
+	border-bottom: 3px solid;
+  opacity: 1;
+}
+
+.nftTypeWrapper {
+  margin: 0;
+} 
+
+.typeText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #272727;
+  margin: 0;
+}
+
+.nftTypeActive .typeText {
+  text-align: center;
+  background: linear-gradient(90deg, #3C67FE 0%, #9153F5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+.searchContainer {
+	font-size: 19px;
+	line-height: 24px;
+	border-radius: 6px;
+  max-width: 340px;
+	padding: 0px;
+	table-layout: fixed;
+	height: 40px;
+	width: 100%;
+	position: relative;
+	box-shadow: none;
+  
+}
+.searchIconContainer {
+	width: 45px;
+	padding-left: 18px;
+}
+.searchIcon {
+	height: 16px;
+	width: 16px;
+	display: block;
+	fill: linear-gradient(to right, #3C67FE 0%, #9153F5 100%);
+}
+
+.searchInput {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+}
+
+.searchInput::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4d4b4b;
+}
+
+.searchWrapper {
+  background: linear-gradient(90deg, white, white) padding-box, linear-gradient(to right, #3C67FE, #9153F5) border-box !important;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 38px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.dateRangeLabelContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.dateRangeLabel {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 172px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+  position: relative;
+}
+
+.clearDate {
+  margin-left: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nftDetailInformation {
+  margin-top: 4px;
+}
+
+.paginationWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.statesWrapper {
+  display: flex;
+}
+
+.stateWrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.stateLabel {
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.menuIcon {
+  font-size: 22px;
+  color: #3C67FE;
+}
+
+.menuIcon:hover {
+  opacity: 0.6;
+}
+
+.selectNFTCheckbox {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  z-index: 1;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.nftsHeader {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.nftsHeaderActions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 42px;
+}
+
+.nftActionsContainer {
+  margin: 15px 0;
+  padding: 12px;
+}
+
+.smallCheckbox {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.nftAction {
+  margin-right: 25px;
+}
+
+.nftStatus {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: -4px;
+}
+
+.iconExpiredNFT {
+  position: absolute;
+  z-index: 3;
+  left: -4px;
+  bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+	.searchForm {
+		flex-wrap: wrap;
+	}
+
+  .dateRangeContainer {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+
+  .paginationWrapper {
+    justify-content: center;
+  }
+
+  .statesWrapper {
+    margin-bottom: 15px;
+  }
+}

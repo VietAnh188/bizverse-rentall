@@ -1,0 +1,86 @@
+@import "../common.css";
+@import "../../common.css";
+
+.modalTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mintNFTContent {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.mintNFTActions {
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 40px;
+}
+
+.splitter {
+  margin: 10px 0;
+  height: 0.8px;
+  background: linear-gradient(99.56deg, #3c67fe 20%, #9153f5 60%);
+}
+
+.information {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.subTitle {
+  color: rgb(0, 0, 0);
+}
+
+.subContent {
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.informationBold {
+  font-weight: bold;
+}
+
+.nftInformation {
+  padding: 5px;
+}
+
+.listingName {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+.buttonConfirm {
+  margin: 0;
+  min-width: 108px;
+}
+
+.dialogClassName {
+  max-width: 700px !important;
+}
+
+.mintingIndicator {
+  position: absolute;
+}
+
+.checkboxWrapper {
+  margin-top: 30px;
+}
+
+.checkboxLabel {
+  margin-left: 10px;
+}
+
+.customLengthText {
+  word-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+  .dialogClassName {
+    max-width: calc(100% - 64px) !important;
+  }
+}

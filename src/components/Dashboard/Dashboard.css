@@ -1,0 +1,111 @@
+@import '../../components/common.css';
+/*.......................common Styles Start..........................*/
+.pageContainer {
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+.containerResponsive {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.43;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+}
+/*.......................common Styles end..........................*/
+/*.......................ProfilePhoto  Styles Start..........................*/
+.slideShow {
+	position: relative;
+	height: auto;
+}
+.slideShowImages {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.slideShowImages {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+}
+.imgResponsive {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(94.59deg, #fff, #fff) padding-box, linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) border-box;
+    border: solid transparent !important;
+    border-radius: 8px;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+}
+.panelBody {
+	font-size: 14px;
+	color: inherit;
+}
+.panelBorder {
+	background: #fff !important;
+    border-radius: 8px !important;
+	box-shadow: 0px 0px 9px 0px #00000026 !important;
+	padding: 12px 20px;
+}
+
+.listingTitleText {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.listStyle {
+	padding-left: 0;
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.43;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 0px;
+}
+/*.......................ProfilePhoto  Styles End..........................*/
+/*.......................Profiledescription Styles Start..........................*/
+.showSm {
+	display: none;
+}
+.meassageBg {
+	background-color: #f5f5f5;
+}
+.linkText {
+	text-align: left;
+	display: block;
+	margin-top: 40px;
+}
+@media screen and (max-width: 640px) {
+	.showSm {
+		display: block;
+	}
+	.hideSm {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.smPadding {
+		padding: 0px;
+	}
+}

@@ -1,0 +1,31 @@
+@import '../../common.css';
+
+.saveBtn {
+	line-height: 43px;
+}
+span {
+	text-decoration: none;
+}
+span:hover, span:active, span:focus, span:visited {
+	text-decoration: none !important;
+}
+.verySmallScreen {
+	display: none;
+}
+.nonVerySmallScreen {
+	display: block;
+	color: var(--bizverse-secondary-color)
+}
+
+.nonVerySmallScreen:hover {
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+	.verySmallScreen {
+		display: block;
+	}
+	.nonVerySmallScreen {
+		display: none;
+	}
+}

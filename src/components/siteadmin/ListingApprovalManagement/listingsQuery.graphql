@@ -1,0 +1,33 @@
+query($currentPage: Int, $searchList: String) {
+    getAllPermissionListings(currentPage: $currentPage, searchList: $searchList){
+        status
+        errorMessage
+        count
+        currentPage
+        results {
+            id
+            title
+            createdAt
+            isPublished
+            isReady
+            listApprovalStatus
+            submittedOn{
+                createdAt
+            }
+            user{
+                id
+                email
+                profile {
+                    profileId
+                    firstName
+                    lastName
+                }
+            }
+            listingHistory{
+                status
+                createdAt
+                reason
+            }
+        }
+    }
+}

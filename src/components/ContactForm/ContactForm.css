@@ -1,0 +1,112 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+.formGroup {
+	margin-bottom: 18px;
+}
+.captionText {
+	font-size: 24px;
+	color: #000000;
+	font-weight: 700;
+	font-size: 30px;
+}
+.labelText {
+	font-size: 16px;
+	color: #000000;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: 700;
+}
+.overFlowHidden {
+	overflow: hidden;
+}
+.formContainerHeader {
+	padding: 10px 15px;
+	width: 100%;
+	width: 100%;
+	position: relative;
+}
+.formContainer {
+	width: 100%;
+	position: relative;
+	height: auto;
+	padding: 15px;
+}
+.backgroundOne {
+	background: url("../../../public/SiteIcons/mailDark.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundTwo {
+	background: url("../../../public/SiteIcons/avatar.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundThree {
+	background: url("../../../public/SiteIcons/call.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundFour {
+	background: url("../../../public/SiteIcons/edit.png") no-repeat;
+	background-position: 98% 20%;
+}
+.marginTop {
+	margin: 50px 0 0 0;
+}
+.formBackground {
+	box-shadow: 0px 2px 6px 0px #00000026;
+	background: #fff;
+	border-radius: 4px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.contactTitle {
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+	font-size: 36px;
+}
+.addressText {
+	color: #000000;
+}
+.linkText {
+	font-size: 18px;
+	text-decoration: none;
+	/* color: var(--btn-secondary-bg) !important */
+	color: #9153F5;
+    text-decoration: none;
+	text-align: center;
+	margin-top: 15px;
+}
+.linkText:hover, .linkText:focus {
+	color: #8541f3;
+    text-decoration: none;
+}
+.subTitleText {
+	font-size: 24px;
+}
+.alignCenter {
+	text-align: center;
+}
+.mailIcon {
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+	backface-visibility: hidden;
+	min-height: 100px;
+	max-height: 100%;
+}
+.iconMargin {
+	margin-bottom: 24px;
+}
+@media screen and (max-width: 767px) {
+	.contactTitle {
+		font-weight: 700;
+		color: #000000;
+		text-align: center;
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.formGroup {
+		margin-bottom: 6px;
+	}
+}

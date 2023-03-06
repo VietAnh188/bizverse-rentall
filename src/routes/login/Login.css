@@ -1,0 +1,105 @@
+@import '../../components/variables.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: calc(100vh - 300px);
+}
+.container {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	max-width: 380px;
+}
+.lineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 12px 0px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.lineThrough::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	margin-top: -5px;
+	margin-left: -20px;
+	width: 40px;
+	height: 10px;
+	background: #1b0441;
+	content: '';
+}
+.lineThrough::after {
+	position: absolute;
+	top: 49%;
+	z-index: -2;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid transparent;
+	background: linear-gradient(99.56deg, #3755F0 36%, #C00297 60%) border-box;
+	content: '';
+}
+.horizontalLineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 15px 0px;
+	width: 100%;
+	/* color: transparent; */
+	text-align: center;
+	font-size: 14px;
+	border-top: 1px solid transparent;
+	background: linear-gradient(99.56deg, #3755F0 36%, #C00297 60%) border-box;
+}
+.titleLogin {
+	color: #fff;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.formSection {
+	overflow: hidden;
+}
+.noPadding {
+	padding: 0px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.modalCaptionLink {
+	color: #C00297;
+	cursor: pointer;
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: #d20aa7;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.button {
+	display: block;
+	border-radius: 4px;
+	text-decoration: none !important;
+}
+@media (max-width : 992px) {
+	.root {
+		height: 87vh;
+	}
+}
+@media (max-width : 767px) {
+	.root {
+		height: 90vh;
+	}
+}

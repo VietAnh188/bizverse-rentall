@@ -1,0 +1,38 @@
+.seeAllContainer {
+	float: right;
+	position: relative;
+}
+.seeAllBtn,
+.seeAllBtn:focus,
+.seeAllBtn:active:focus {
+	font-size: 14px;
+	color: #ffffff;
+	border: 0.5px solid #FFFFFF99;
+	border-radius: 6px;
+	padding: 5px 15px;
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	line-height: 24px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	outline: 0;
+}
+.seeAllBtn:hover {
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(94.59deg, #476efa 4.37%, #955bf3 100%);
+}
+.seeAllBtnIcon {
+	margin-top: -4px;
+}
+@media screen and (max-width: 1170px) {
+	.seeAllBtn {
+		position: absolute;
+		right: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.seeAllContainer {
+		display: none;
+	}
+}

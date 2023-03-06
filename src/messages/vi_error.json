@@ -1,0 +1,102 @@
+[
+    {
+        "id": "error.something",
+        "message": "Lỗi không xác định, thử lại sau"
+    },
+    {
+        "id": "error.login",
+        "message": "Bạn chưa đăng nhập"
+    },
+    {
+        "id": "error.accountBlocked",
+        "message": "Tài khoản của bạn đã bị khoá, hãy liên hệ quản trị viên để được hướng dẫn mở khoá."
+    },
+    {
+        "id": "error.walletNotFound",
+        "message": "Không tìm thấy ví của bạn"
+    },
+    {
+        "id": "error.noPermission",
+        "message": "Bạn không thể thực hiện hành động này"
+    },
+    {
+        "id": "error.selectedDatesNotAvailable",
+        "message":  "Ngày bạn chọn đã bị khoá, hoặc đã được đặt"
+    },
+    {
+        "id": "error.nftNotClaimed",
+        "message": "NFT chưa được claim"
+    },
+    {
+        "id": "error.QRCodeNotFound",
+        "message": "Không tìm thấy QRCode"
+    },
+    {
+        "id": "error.QRCodeExpired",
+        "message": "QRCode đã quá hạn"
+    },
+    {
+        "id": "error.recordNotFound",
+        "message": "Không tìm thấy record"
+    },
+    {
+        "id": "error.recordExist",
+        "message": "Record đã tồn tại"
+    },
+    {
+        "id": "error.maintenance",
+        "message": "Website đang được bảo trì và sẽ sớm hoạt động trở lại."
+    },
+    {
+        "id": "error.maintenanceStop",
+        "message": "Vui lòng ngừng bảo trì trước đó"
+    },
+    {
+        "id": "error.maintenanceStopped",
+        "message": "Bảo trì đã dừng"
+    },
+    {
+        "id": "error.maintenanceInvalidInput",
+        "message": "startTime phải sau bây giờ hoặc startTime phải trước endTime"
+    },
+    {
+        "id": "error.listingNotFound",
+        "message": "Không tìm thấy listing"
+    },
+    {
+        "id": "error.listingPayLaterInvalid",
+            "message": "Phương thức thanh toán sau không hợp lệ cho listing này"
+    },
+    {
+        "id": "error.bookingDateBooked",
+        "message": "Ngày đặt phòng đã được đặt bởi một người dùng khác!"
+    },
+    {
+        "id": "error.invalidInput",
+        "message": "Thông tin đầu vào không hợp lệ"
+    },
+    {
+        "id": "error.createReservationFail",
+        "message": "Đặt chổ thất bại"
+    },
+    {
+        "id" : "error.cannotCancelReservationByHost",
+        "message": "Chủ nhà không thể hủy đặt phòng sau khi checkin"
+    },
+    {
+        "id": "error.reservationNotFound",
+        "message": "Không tìm thấy đặt chổ"
+    }, 
+    {
+        "id" : "error.cannotCancelReservationNow",
+        "message": "Không thể hủy đặt chổ bây giờ"
+    },
+    {
+        "id": "error.notHostOfReservation",
+        "message": "Bạn không phải là chủ nhà của đặt chổ này"
+    },
+    {
+        "id": "error.createNFTForReservationFail",
+        "message": "Tạo NFT cho đặt chỗ không thành công"
+    }
+]

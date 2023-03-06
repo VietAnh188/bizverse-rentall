@@ -1,0 +1,89 @@
+@import '../../components/common.css';
+
+.container {
+  margin: 0px auto;
+  padding: 30px 0px 0px 0px;
+  max-width: var(--max-content-width);
+  color: #272727;
+}
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  min-height: 300px;
+}
+
+.selectingNFTForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.selectingNFTGroup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.selectingNFTLabel {
+  display: block;
+}
+
+.selectInput {
+  height: 44px;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #9153F5;
+  border-radius: 6px;
+}
+
+.selectInputWrapper {
+  
+}
+
+.btnCreate {
+  height: 44px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px !important;
+  margin-top: 20px;
+}
+
+.menu {
+  background-color: white;
+}
+
+.menuItem {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.menuItem:hover {
+  color: white;
+  background-color: #3C67FE;
+}
+
+.activeMenuItem {
+  color: white;
+  background-color: #3C67FE;
+}
+
+@media screen and (min-width: 768px) {
+  .btnCreate {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  .selectingNFTGroup {
+    width: auto;
+  }
+}

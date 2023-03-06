@@ -1,0 +1,70 @@
+@import '../../../components/variables.css';
+@import '../../../components/common.css';
+@import '../../../components/helpers.css';
+ .root {
+	padding: 0px 15px 15px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 50vh;
+	overflow: hidden;
+}
+.button {
+  font-size: 18px !important;
+  background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 5px;
+}
+.button:hover {
+	box-shadow: 0 4px 10px 0 #814fd3 !important ;
+	cursor: pointer;
+}
+/** RentAll - Begin **/
+.logInModalContainer {
+	max-width: 420px;
+}
+.logInModalBody {
+	padding: 0px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.marginLeft {
+	margin-left: 12px;
+}
+.labelText {
+	word-wrap: break-word;
+	font-weight: normal;
+	padding: 10px 0px;
+	margin: 0px;
+	line-height: 24px;
+	font-size: 19px;
+	color: white;
+}
+.btnText {
+	text-decoration: none !important;
+}
+.btnSection {
+	display: block;
+	margin-bottom: 12px;
+}
+.btnDanger{
+  font-size: 18px !important;
+  background: linear-gradient(90deg, #fe3c3c 4.52%, #f553b1 51.27%, #da2664 100%) !important;
+  border: none !important;
+  color: white !important;
+}
+.formContainer {
+	padding: 15px 0px;
+}
+.cancelCreateWishList {
+	min-height: 37px;
+}
+
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}

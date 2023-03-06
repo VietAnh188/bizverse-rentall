@@ -1,0 +1,138 @@
+@import '../../components/common.css';
+ .container {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 500px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+}
+.formGroup {
+	margin-bottom: 18px;
+}
+.select {
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+.formSection {
+	overflow: hidden;
+}
+.labelText {
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin: 6px 0px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0.05em;
+}
+.textAlign {
+	text-align: right;
+}
+.formControlSelectWidth {
+	max-width: 280px;
+}
+.birthDayWidth {
+	width: 100%;
+	max-width: 92px;
+}
+.margintop15 {
+	margin-top: 15px;
+}
+.addonStyle {
+	border-color: #dce0e0 !important;
+}
+.widthredcd {
+	max-width: 280px;
+}
+
+.editFormHeadline {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 36px;
+	color: rgb(0, 0, 0);
+	margin: 0 0 20px 0;
+}
+
+.bizverseBox::placeholder {
+	color: #404040;
+	opacity: 0.6;
+}
+
+/* Select box */
+.selectBoxWrapper {
+    position: relative;
+	max-width: 280px;
+}
+
+.selectBoxWrapper::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: block;
+	pointer-events: none;
+	position: absolute;
+	right: 5px;
+	bottom: 30%;
+	background-image: url("../../../public/chevron-down.svg");
+	background-repeat: no-repeat;
+	background-position: 96% 7px;
+	background-size: 25px 25px !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+}
+
+.btnSync {
+	margin-right: 10px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.formControlSelect {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.smSpace {
+		margin-top: 0px;
+	}
+	.textAlign {
+		text-align: left;
+	}
+	.formGroup {
+		margin-bottom: 6px;
+	}
+	.formControlSelectWidth {
+		max-width: 100% !important;
+	}
+}
+@media screen and (max-width: 640px) {
+	.formControlSelect {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.textAlign {
+		text-align: left;
+	}
+	.formControlSelect {
+		width: 100%;
+	}
+	.birthDayWidth {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 6px;
+		margin-right: 0px;
+	}
+}

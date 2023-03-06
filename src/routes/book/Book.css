@@ -1,0 +1,10 @@
+@import '../../components/common.css';
+.container {
+  background-color: transparent;
+}
+.landingContainer {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  min-height: 100vh;
+}

@@ -1,0 +1,1 @@
+export const getList = ({ order, byId }) => order.map(id => byId[id])

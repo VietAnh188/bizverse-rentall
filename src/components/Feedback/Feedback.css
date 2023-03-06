@@ -1,0 +1,79 @@
+@import "../variables.css";
+@import "../helpers.css";
+.root {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+}
+.container {
+  margin: 0 auto;
+  border-top: 1px solid #9B9B9B;
+  max-width: var(--max-container-width);
+  font-size: 1.5em;
+  display: block;
+}
+.feedbackContainer {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  background: "url('images/home/2-01_3.png') no-repeat";
+}
+.feedbackRow {
+  display: block;
+}
+.feedbackBox {
+  padding: 40px 30px;
+  border-right: 1px solid #9B9B9B;
+  display: table-cell;
+  float: none;
+}
+.feedbackBox:last-of-type {
+  border-image: linear-gradient(to bottom, #3756f000, #c0029700) 10;
+}
+.feedbackIcon {
+  float: left;
+  display: table;
+  font-size: 33px;
+  height: 33px;
+  width: 33px;
+  line-height: 20px;
+  margin-right: 22px;
+}
+.feedbackContent {
+  display: table;
+  text-align: left;
+}
+.landingLabel {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.landingCaption {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  padding-top: 10px;
+}
+.overviewIcon {
+  font-size: 2.4em;
+  text-align: center;
+  max-height: 34px;
+  max-width: 34px;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    border: none;
+  }
+  .feedbackBox {
+    display: block;
+    float: left;
+    border: none;
+    border-bottom: 1px solid #dce0e0;
+  }
+  .feedbackBox:last-of-type {
+    border-bottom: 1px solid transparent;
+  }
+}

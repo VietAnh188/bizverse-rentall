@@ -1,0 +1,158 @@
+@import '../../components/common.css';
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	z-index: 100;
+}
+
+.lightboxBackdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.8;
+}
+
+.lightboxImagesList {
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	justify-content: center;
+	display: none;
+}
+
+.lightboxContent {
+	max-width: 1024px;
+	position: relative;
+	z-index: 2;
+	width: fit-content;
+	height: auto;
+	max-height: 70vh;
+	align-self: center;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.lightboxImageWrapper {
+	height: auto;
+	max-height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0 10px;
+}
+
+.lightboxImage {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+.lightboxClose {
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lightboxClose svg {
+	width: 20px;
+	height: 20px;
+	color: white;
+}
+
+.lightboxClose:hover {
+	opacity: 0.7;
+}
+
+.lightboxItemImageWrapper {
+	width: 50px;
+	height: 50px;
+	margin: 0 2px;
+}
+
+.lightboxItemActive {
+	box-shadow: inset 0 0 0 2px white;
+	padding: 2px;
+    box-sizing: border-box;
+}
+
+.lightboxItemImage {
+	width: 100%;
+	height: 100%;
+}
+
+.lightboxAction {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: transparent;
+	z-index: 2;
+}
+
+.lightboxActionBack {
+	left: 0;
+}
+
+.lightboxActionNext {
+	right: 0;
+}
+
+.lightboxAction svg {
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+
+.panoramaWrapper {
+	min-width: 350px;
+	height: 200px;
+}
+
+@media (min-width: 768px) {
+	.lightboxImageWrapper {
+		height: 100%;
+	}
+	
+	.lightboxImage {
+		height: 100%;
+		width: auto;
+	}
+
+	.lightboxImagesList {
+		display: flex;
+	}
+
+	.lightboxAction svg {
+		width: 80px;
+		height: 80px;
+	}
+
+	.lightboxContent {
+		height: 100%;
+	}
+
+	.panoramaWrapper {
+		min-width: 768px;
+		height: 100%
+	}
+}

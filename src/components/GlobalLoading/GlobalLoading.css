@@ -1,0 +1,21 @@
+@import '../common.css';
+
+.globalLoadingContainer {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+}
+
+.globalLoadingContent {
+	width: 100%;
+	height: 100vh;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.backdropClassName {
+	opacity: 0.4 !important;
+	z-index: 10000;
+}

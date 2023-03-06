@@ -1,0 +1,102 @@
+[
+    {
+        "id": "error.something",
+        "message": "Something error, please try later"
+    },
+    {
+        "id": "error.login",
+        "message": "You are not loggedIn"
+    },
+    {
+        "id": "error.accountBlocked",
+        "message": "Your account has blocked for some reason and please contact our support team."
+    },
+    {
+        "id": "error.walletNotFound",
+        "message": "Your wallet address is not exist. Please update your wallet address"
+    },
+    {
+        "id": "error.noPermission",
+        "message": "You do not have permission to do this action"
+    },
+    {
+        "id": "error.selectedDatesNotAvailable",
+        "message":  "The selected date has been booked or blocked!"
+    },
+    {
+        "id": "error.nftNotClaimed",
+        "message": "NFT is not claimed yet"
+    },
+    {
+        "id": "error.QRCodeNotFound",
+        "message": "QRCode is not found"
+    },
+    {
+        "id": "error.QRCodeExpired",
+        "message": "QRCode is expired"
+    },
+    {
+        "id": "error.recordNotFound",
+        "message": "Record not found"
+    },
+    {
+        "id": "error.recordExist",
+        "message": "Record exist"
+    },
+    {
+        "id": "error.maintenance",
+        "message": "Our website is going through a maintenance and will be available soon."
+    },
+    {
+        "id": "error.maintenanceStop",
+        "message": "Please stop previous maintenance"
+    },
+    {
+        "id": "error.maintenanceStopped",
+        "message": "Maintenance has stop"
+    },
+    {
+        "id": "error.maintenanceInvalidInput",
+        "message": "startTime must after now or startTime must before endTime"
+    },
+    {
+        "id": "error.listingNotFound",
+        "message": "Listing not found"
+    },
+    {
+        "id": "error.listingPayLaterInvalid",
+        "message": "The payment later method is not valid for this listing"
+    },
+    {
+        "id": "error.bookingDateBooked",
+        "message": "The booking date has been booked by another user!"
+    },
+    {
+        "id": "error.invalidInput",
+        "message": "Invalid input"
+    },
+    {
+        "id": "error.createReservationFail",
+        "message": "Failed to create reservation"
+    },
+    {
+        "id" : "error.cannotCancelReservationByHost",
+        "message": "Host can not cancel reservation after checkin"
+    },
+    {
+        "id": "error.reservationNotFound",
+        "message": "Reservation not found"
+    },
+    {
+        "id" : "error.cannotCancelReservationNow",
+        "message": "Can not cancel reservation now"
+    },
+    {
+        "id": "error.notHostOfReservation",
+        "message": "You are not the host of reservation"
+    },
+    {
+        "id": "error.createNFTForReservationFail",
+        "message": "Create NFT for the reservation failed"
+    }
+]

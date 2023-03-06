@@ -1,0 +1,6 @@
+{
+  "name": "CommentModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CommentModal.js"
+}

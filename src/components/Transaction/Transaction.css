@@ -1,0 +1,196 @@
+@import '../../components/common.css';
+/*************************Sidenavigation Styles start******************************************/
+.listContainer {
+	padding-left: 0px;
+	list-style-type: none;
+}
+/*************************Sidenavigation Styles end******************************************/
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+	box-shadow: none;
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+.noPadding {
+	padding: 0;
+}
+.noBorder {
+	border: 0px none;
+}
+.listLayout {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+	color: rgb(0, 0, 0);
+}
+.currencyColor {
+	color: #3fb34f;
+}
+.labelText {
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.labelText p {
+	margin: 10px 0;
+}
+.labelText.noBorder {
+	background-color: transparent;
+}
+
+.formControlSelect {
+	width: 100%;
+	padding-right: 2em !important;
+	display: block;
+	overflow: hidden;
+	appearance: none;
+	background-position: 99% 7px;
+	margin: 0;
+}
+.formWidth {
+	min-width: 100px;
+	max-width: 200px;
+}
+.select {
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	margin-right: 15px;
+}
+.pagintaion {
+	text-align: center;
+}
+.labelText {
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+}
+.rowBorder {
+	border-bottom: 1px solid #dce0e0;
+}
+.tabItem {
+	display: block;
+	padding: 20px 15px 14px 8px;
+	position: relative;
+	text-align: center;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: pointer;
+	border-bottom: 3px solid transparent;
+	color: rgb(0, 0, 0);
+}
+.tabItem:hover{
+	text-decoration: none;
+	color: #000000;
+	opacity: 0.8;
+  }
+.active .tabItem {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	text-decoration: none;
+	font-weight: 700;	
+}
+
+.active .tabItem::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: -4px;
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+
+.noMargin {
+	margin: 0px;
+}
+.csvExport {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+    margin-top: 14px;
+}
+.tabsContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.tabItemWrapper {
+	padding: 0 20px;
+}
+
+.selectBoxWrapper {
+    position: relative;
+	height: 50px;
+	width: 100%;
+}
+
+.selectBoxWrapper::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: block;
+	pointer-events: none;
+	position: absolute;
+	right: 5px;
+	bottom: 20%;
+	background-image: url("../../../public/chevron-down.svg");
+	background-repeat: no-repeat;
+	background-position: 96% 7px;
+	background-size: 25px 25px !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+}
+
+.payoutTable {
+	margin-top: 36px;
+}
+
+.transactionNote {
+	font-size: 16px;
+	color: #313030d6;
+}
+
+@media screen and (max-width: 991px) {
+	.csvExport {
+		display: block;
+		float: none;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mobileWidth {
+		width: 100% !important;
+	}
+	.select {
+		margin-right: 0px;
+		width: 100%;
+	}
+	.formWidth {
+		width: 100%;
+		min-width: 100%;
+        max-width: 100%;
+	}
+	.minWidthMobile{
+		min-width: 130px;
+	}
+}

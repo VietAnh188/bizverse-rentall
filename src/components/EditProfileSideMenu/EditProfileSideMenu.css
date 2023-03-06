@@ -1,0 +1,56 @@
+@import '../../components/common.css';
+
+.progressContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 12px 20px;
+	background-color: transparent;
+	position: relative;
+	overflow: hidden;
+}
+.navList {
+	list-style: none;
+	background-color: transparent;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	padding: 0px !important;
+	width: 100%;
+}
+.navItem {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	color: #bbb;
+	position: relative;
+	float: left;
+	padding: 14px 0 12px;
+	background-color: transparent;
+	width: 100%;
+	text-decoration: none;
+	border-image: linear-gradient(to right, #3755f0, #c00297) 10;
+	border-bottom: 1px solid;
+}
+
+.navItemWrapper:last-child .navItem {
+	padding-bottom: 8px;
+	border-bottom: none;
+}
+
+.active .navItem,
+.navItem:hover,
+.navItem:focus {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	color: white;
+	text-decoration: unset;
+}
+
+.btnViewProfile {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

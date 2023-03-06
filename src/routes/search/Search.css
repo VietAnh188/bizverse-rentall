@@ -1,0 +1,155 @@
+@import '../../components/variables.css';
+ .root {
+	padding-left: 0px;
+	padding-right: 0px;
+	min-height: 100vh;
+}
+.container {
+	margin: 0 auto;
+	padding: 81px 0px 0px;
+	max-width: 100%;
+	margin-top: 0px;
+}
+/* Search page - RentAll **/
+
+.searchLoaderContainer {
+	position: absolute;
+	top: 11%;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	height: 100vh;
+}
+.searchResultContainer {
+	width: 65%;
+	display: block;
+	margin-top: 50px;
+}
+.searchMapContainer {
+	width: 100%;
+	position: fixed;
+	right: 0;
+	left: auto;
+	bottom: 0;
+	top: 148px;
+	padding: 65px 24px 24px 0px;
+}
+.mobileNavigation {
+	position: fixed;
+	bottom: 16px;
+	left: 0;
+	opacity: 1;
+	right: 0;
+	text-align: center;
+	transition-duration: 250ms;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	z-index: 5;
+	display: none;
+}
+.buttonOuter {
+	display: inline-block;
+	width: 100%;
+}
+.buttonContainer {
+	background-color: transparent;
+	color: #484848;
+	float: left;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	line-height: 1;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	width: 100%;
+}
+.filterButton,
+.filterButton:hover,
+.filterButton:focus,
+.filterButton:active:focus {
+	color: #008489;
+	text-decoration: none;
+	padding: 6px 18px;
+	box-shadow: 0 0px 8px 0px #dedede;
+	background-color: #ffffff;
+	border-radius: 80px;
+	outline: 0;
+}
+.filterButton .icon {
+	font-size: 20px;
+}
+.filterButton:last-child {
+	border: none;
+}
+.locationBtn,
+.locationBtn:hover,
+.locationBtn:focus,
+.locationBtn:active:focus {
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.locationBtn .icon {
+	font-size: 40px;
+}
+@media screen and (max-width: 1153px) {
+	.searchResultContainer {
+		width: 65%;
+		display: block;
+		margin-top: 80px;
+	}
+	.searchMapContainer {
+		padding-top: 100px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.searchResultContainer {
+		width: 50%;
+		display: block;
+		margin-top: 85px;
+	}
+	.listItemOnly.searchResultContainer {
+		width: 100% !important;
+	}
+	.searchMapContainer {
+		display: block;
+		width: 50%;
+		padding-top: 110px;
+	}
+}
+@media screen and (min-width: 901px) {
+	.listItemOnly.searchResultContainer {
+		width: 100% !important;
+	}
+	.searchMapContainer {
+		display: block;
+		width: 34%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.resultsBody {
+		display: block;
+	}
+	.mobileNavigation {
+		display: block;
+	}
+	.searchResultContainer {
+		width: 100%;
+		margin-top: 0;
+	}
+	.listItemOnly.searchResultContainer {
+		width: 100% !important;
+		margin-top: 0px;
+	}
+	.searchMapContainer {
+		width: 100%;
+		padding: 0px;
+		top: 64px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.container {
+		padding: 64px 0px 0px;
+	}
+}

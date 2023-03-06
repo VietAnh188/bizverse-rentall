@@ -1,0 +1,88 @@
+@import "../../components/variables.css";
+
+/** RentAll - Begin **/
+.formGroup {
+  margin-bottom: 6px;
+  position: relative;
+}
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+.facebook {
+  border-color: #3b5998;
+  background: #3b5998;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.facebook:hover,
+.facebook:focus {
+  background: #2d4373;
+  color: #ffffff;
+  text-decoration: none;
+}
+.google {
+  border-color: #555;
+  background: transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+}
+.google:hover,
+.google:focus {
+  background: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  color: #000;
+}
+.bizverse {
+  border-color: violet;
+  background: linear-gradient(317.15deg, #3C67FE 3.65%, #9153F5 91.98%);
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.bizverse:hover,
+.bizverse:focus {
+  background: linear-gradient(317.15deg, #4c71f5 3.65%, #9960f5 91.98%);
+  color: #ffffff;
+  text-decoration: none;
+}
+.icon {
+  display: inline-block;
+  margin: 1px 0px 0px 0px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  float: left;
+  fill: currentColor;
+}
+.googleIcon {
+  display: inline-block;
+  margin: 1px 0px 0px 0px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  float: left;
+  fill: currentColor;
+}

@@ -1,0 +1,73 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 0 120px;
+	max-width: var(--max-content-width);
+	position: relative;
+	top: 50px;
+}
+.textJumbo {
+	font-size: 145px;
+	font-weight: bold;
+	margin: 0;
+}
+.textMedium {
+	font-size: 85px;
+	font-weight: bold;
+	margin: 0;
+	color: rgb(0, 0, 0);
+}
+.textCenter {
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.listStyled {
+	padding-left: 0;
+	list-style: none;
+}
+.subTitle {
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+}
+
+.notFoundSubTitle {
+	line-height: 1.2;
+}
+
+a,
+a:hover {
+	color: #9153F5;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		padding: 100px 0;
+		top: unset;	
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+		height: calc(100vh - 83px);
+		display: flex;
+		align-items: center;
+		padding: 0;
+		position: relative;
+		top: -50px;
+	}
+
+	.containerFluid {
+		padding: 0 30px;
+		margin: 0 auto;
+	}
+
+	.textCenter {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

@@ -1,0 +1,131 @@
+@import '../../components/common.css';
+@import '../ListPlaceStep1/ListPlaceStep1.css';
+
+ .saveCalendarContainer {
+	padding: 20px 15px;
+	border: 1px solid #cccccc;
+	margin-top: 90px;
+}
+.selectedDatesBox {
+	padding: 7px 10px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #E3E3E3;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 43px;
+}
+.arrowIcon {
+	vertical-align: middle;
+	fill: #E3E3E3;
+	height: 24px;
+	width: 24px;
+	margin: 0px 12px;
+}
+.noBorderBtn {
+	border: none;
+}
+.borderInput {
+	background: linear-gradient(94.59deg, #fff, #fff) padding-box, linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) border-box;
+    border: 1px solid transparent;
+}
+.loaderContainer {
+	display: inline;
+	padding-right: 10px;
+}
+.landingContentTitle {
+	margin: 0px 0px 18px 0px;
+}
+.floatLeftInput {
+	float: left;
+}
+.buttonLeft {
+	float: left;
+	margin: 0;
+}
+.inputHeight {
+	height: 43px;
+}
+.aBlockWrap {
+	overflow: hidden;
+}
+.aBWLeft,
+.aBWRight {
+	width: 50%;
+	float: left;
+}
+.btnCancelCalendar {
+	border: 0.5px solid #9153F5;
+	background-color: transparent;
+	color: #9153F5;
+	padding: 5px 12px;
+}
+.btnCancelCalendar:hover, .btnCancelCalendar:active, .btnCancelCalendar:focus {
+	border: 0.5px solid #9153F5;
+	background-color: transparent;
+	color: #9153F5;
+	opacity: 0.8;
+}
+.btnPrimaryCalendar {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: none;
+	color: #fff;
+}
+.btnPrimaryCalendar:hover {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	color: #fff;
+	opacity: 0.8;
+}
+.aBlockWrap .btnBg {
+	width: 100%;
+	height: 40px;
+	border-image-source: linear-gradient(99.56deg, #3C67FE 13.92%, #9153F5 36.81%);
+  	border-image-slice:1 ;
+	color: #9153F5;
+	border-radius: 0;
+	border-width: 1px;
+	background-color: transparent;
+}
+.aBlockWrap .btnBg:active,
+.aBlockWrap .btnBg:focus,
+.aBlockWrap .btnBg.active {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	color: #fff;
+}
+.textLeft {
+	text-align: left;
+}
+.sDateWrap {
+	margin: 20px 0 10px;
+	color: #000000;
+}
+.sDateWrap label {
+	margin: 0;
+}
+.marginBottom {
+	margin-bottom: 10px;
+	color: #000000;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.saveCalendarContainer {
+		padding: 10px;
+	}
+	.sDateWrap {
+		margin: 20px 0 10px;
+	}
+	.sDateWrap h4 {
+		font-size: 14px;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.innerCPopup {
+		width: 100%;
+	}
+}
+@media (max-width: 767px) and (min-width: 560px) {
+	.saveCalendarContainer {
+		width: 100%;
+		max-width: 400px;
+	}
+}

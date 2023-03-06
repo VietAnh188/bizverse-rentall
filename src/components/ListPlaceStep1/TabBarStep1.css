@@ -1,0 +1,69 @@
+@import '../../components/common.css';
+
+.progressContainer {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	border-bottom: 5px solid !important;
+}
+.linkReset {
+	text-decoration: none;
+	color: inherit;
+}
+.textTrunck {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	font-size: 16px;
+}
+.progressStep {
+	padding: 12px 14px;
+	background-color: transparent;
+	vertical-align: top;
+	display: block;
+	color: rgb(0, 0, 0);
+}
+.progressSection {
+	display: inline-block;
+	background-color: transparent;
+	vertical-align: middle;
+}
+.progressStyle {
+	width: 14%;
+	left: 0%;
+	max-width: 100%;
+}
+a:hover,
+a:focus,
+a:active {
+	color: var(--btn-secondary-bg);
+}
+.leanProgress {
+	height: 5px;
+	background-color: var(--btn-secondary-bg);
+	margin-bottom: 6px;
+}
+.progressContainer a:last-of-type div {
+	border-right: 1px solid transparent;
+}
+.active .linkReset span,
+.linkReset:hover span {
+	background: linear-gradient(45deg, #364AFF 14.64%, #FC54FF 85.36%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-weight: 700;
+}
+.active .linkReset span,
+.linkReset:focus span {
+	background: linear-gradient(45deg, #364AFF 14.64%, #FC54FF 85.36%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-weight: 700;
+}

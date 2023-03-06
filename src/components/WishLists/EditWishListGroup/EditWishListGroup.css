@@ -1,0 +1,158 @@
+@import '../../helpers.css';
+@import '../../variables.css';
+/* Common Helpers Style - Start */
+.button {
+	font-size: 18px !important;
+  	line-height: 1.42857143;
+  	text-decoration: none !important;
+  	display: inline-block;
+  	text-align: center;
+  	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) !important;
+  	border: none !important;
+  	border-radius: 4px;
+  	color: white !important;
+	margin-right: 10px;
+}
+.buttonBackAllLists {
+	color: #9153F5;
+	border: 0.5px solid #9153F5;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.buttonBackAllLists:hover, .buttonBackAllLists:focus { 
+	color: #782bf3;
+}
+.button:hover,.buttonDanger:hover {
+	box-shadow: 0 4px 10px 0 #9153F5 !important ;
+}
+.deleteBtnMargin {
+  margin-right: 6px !important;
+}
+.landingTitle {
+	font-size: 32px;
+	color: #ffffff;
+	margin: 12px 0px 12px 0px;
+	word-break: break-word;
+}
+.landingContentTitle {
+	font-size: 18px;
+	color: #ffffff;
+	margin: 0px 0px 18px 0px;
+}
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.pullRight {
+	float: right;
+}
+.flexBtnWishList {
+	display: flex;
+	align-items: center;
+}
+/* Common Helpers Style - End */
+
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.noPadding {
+	padding: 0px;
+}
+.marginTop {
+	margin-top: 40px !important;
+}
+.modalCaptionLink {
+	color: var(--btn-primary-hover-bg) !important;
+	border: 1px solid var(--btn-primary-hover-bg);
+	background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.modalCaptionLink:focus {
+	color: var(--btn-primary-hover-bg) !important;
+}
+.modalCaptionLink:hover {
+	color: #000000 !important;
+	text-decoration: none !important;
+	background: var(--btn-primary-hover-bg);
+	border: 1px solid var(--btn-primary-hover-bg) !important;
+	cursor: pointer;
+	outline: 0;
+}
+.innerPadding {
+	padding: 0px 8px;
+	color: rgb(0, 0, 0);
+}
+.listingSection {
+	display: inline-block;
+	width: 33.33%;
+	padding: 0px 8px;
+	margin-bottom: 12px;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.listingSection {
+		display: inline-block;
+		width: 33.33%;
+		padding: 0px 8px;
+		margin-bottom: 12px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.displayInlineBlock {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.pullRghtNone {
+		float: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.listingSection {
+		display: inline-block;
+		width: 100%;
+		padding: 0px 0px 12px 0px;
+		margin-bottom: 0px;
+	}
+	.resposiveBtn {
+		width: 100%;
+		text-align: center;
+	}
+	.btnDeteleWishList {
+		margin: 0;
+	}
+	.responsiveDeleteBtn {
+		margin-right: 0;
+		margin-top: 12px;
+	}
+	.innerPadding {
+		padding: 0px 0px;
+  }
+  .deleteBtnMargin {
+    margin-right: 0px !important;
+    margin-top: 12px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+	.modalCaptionLinkLarge {
+		padding-left: 8px;
+	}
+}
+@media (max-width: 412px) {
+	.innerPadding .buttonBackAllLists {
+		padding: 12px 4px !important ;
+	}
+}
+@media (max-width: 360px) {
+	.innerPadding .buttonBackAllLists {
+		padding: 12px 4px !important ;
+		font-size: 11px;
+	}
+}
+@media (max-width: 280px) {
+	.flexBtnWishList {
+		display: block;
+	}
+}

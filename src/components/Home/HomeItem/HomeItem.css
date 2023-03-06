@@ -1,0 +1,154 @@
+@import "../../helpers.css";
+/** Common **/
+.textEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* :root {
+  --color-bg: white;
+} */
+/** Common **/
+/** Home slider Item - Start **/
+.borderCard {
+  border-radius: 8px;
+  padding: 7px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.borderCard:hover,
+.borderCard:focus {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+}
+.parent {
+  background: #d8d8d8 none repeat scroll 0 0;
+  padding-top: 80%;
+  position: relative;
+  overflow: hidden;
+}
+.children {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.imageContent {
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.iconPanorama {
+  position: absolute;
+  z-index: 1;
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+}
+.iconPayLater {
+  position: absolute;
+  z-index: 2;
+  bottom: 2px;
+  left: -7px;
+}
+.infoContainer {
+  padding: 10px 0px 0px 7px;
+}
+.linkContainer,
+.linkContainer:hover {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.infoText {
+  color: rgba(0, 0, 0, 0.801);
+  margin: 0px;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline;
+}
+.infoTextCost {
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline;
+}
+.infoReview {
+  font-size: 12px;
+}
+.infoTitle {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 4px !important;
+}
+.infoDesc {
+  font-weight: 200;
+  font-size: 14px;
+  color: #767676;
+}
+.textStrong {
+  font-weight: bold;
+}
+.reviewStar {
+  display: inline;
+  position: relative;
+  float: left;
+  padding-top: 4px;
+}
+.reviewText {
+  padding: 5px;
+}
+.roomTitleBlock {
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+.instantIcon {
+  color: #ffb400;
+  height: 16px;
+  width: 16px;
+}
+.infoSpace {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+.listingInfo {
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: normal;
+  color: #4CD4FF;
+  font-weight: 400;
+  margin: 0px;
+  text-transform: uppercase;
+}
+/** Home slider Item - Start **/
+.itemLink {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 245px;
+  max-height: 195px;
+}

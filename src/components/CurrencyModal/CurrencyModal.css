@@ -1,0 +1,31 @@
+
+@import '../variables.css';
+@import '../common.css';
+.activeItemCurrency {
+    display: flex;
+    font-size: 15px;
+    font-weight: normal;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+.activeItemCurrencyRight {
+    display: flex;
+    font-size: 15px;
+    font-weight: normal;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+}
+.activeItemCurrency:hover,
+.activeItemCurrency:focus,
+.activeItemCurrency:active, 
+.activeItemCurrencyRight:hover,
+.activeItemCurrencyRight:focus,
+.activeItemCurrencyRight:active {
+	background: linear-gradient(94.59deg, #3c66fe2e 4.37%, #9153f550 100%);
+	color: #000000;
+    cursor: pointer;
+}

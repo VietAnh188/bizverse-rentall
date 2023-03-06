@@ -1,0 +1,397 @@
+/* Bizverse style */
+.bizverse-container .bizverse-box-secondary {
+	background: #fff;
+	box-shadow: 0px 0px 9px 0px #00000026;
+	border-radius: 8px;
+    box-sizing: border-box;
+	color: rgb(0, 0, 0);
+}
+
+.bizverse-container .bizverse-box-secondary .bizverse-box-secondary {
+	background: initial;
+	box-shadow: initial;
+	border-radius: inherit;
+}
+
+.bizverse-container .bizverse-box-secondary .bizverse-box-secondary::before {
+	display: none;
+}
+
+.bizverse-container .bizverse-box-secondary .modal-content {
+	background: transparent;
+	border-radius: 8px;
+}
+
+.bizverse-container .bizverse-box-secondary .modal-header .close {
+	color: rgb(0, 0, 0);
+}
+
+.bizverse-container .bizverse-box-secondary .modal-title {
+	color: rgb(0, 0, 0);
+}
+
+/* Text */
+.bizverse-text-secondary {
+	color: #000000;
+}
+
+.bizverse-link {
+	color: #9153F5 !important;
+    background-color: transparent !important;
+}
+
+/* Header */
+.rentAllHeader .hamburgerButton .menuToggleOne span {
+	background: white;
+}
+
+/* View Listing********** */
+.view-listing-container .bootItPriceSection, .view-listing-container .bookItPanelRtl {
+    background: transparent;
+}
+
+.view-listing-container .bookItContentCommon {
+    margin-top: 0;
+}
+
+/* DayPicker style */
+
+#app .DayPicker-Caption {
+	color: #000000;
+}
+
+.view-listing-container .DayPicker, .view-listing-container .CalendarMonthGrid,
+.view-listing-container .CalendarMonth {
+	background: transparent;
+}
+
+.DayPicker .DayPickerNavigation_button__horizontalDefault {
+	background-image: url('../SiteIcons/icon-circle.png');
+	background-size: 100%;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	width: 42px;
+	height: 42px;
+}
+
+.DayPicker .DayPickerNavigation_button__horizontalDefault:hover {
+	opacity: 0.7;
+}
+
+.DayPicker .DayPickerNavigation_svg__horizontal {
+	fill: rgb(0, 0, 0);
+}
+
+.DayPicker .DayPicker_weekHeader_li{
+	color: #000;
+}
+.DayPicker .CalendarMonth_caption {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.BookingModalNew .CalendarMonthGrid {
+	background: transparent;
+}
+
+/* .BookingModalNew .CalendarMonth,
+.BookingModalNew .DayPicker {
+	background: #1C053D;
+} */
+
+.DayPicker .CalendarDay__default {
+	border-color: transparent;
+	background: transparent;
+	color: rgb(0, 0, 0);
+}
+
+#app .DayPicker > div {
+	background: transparent;
+}
+
+.DayPicker .CalendarDay__blocked_out_of_range {
+	background-color: transparent;
+	opacity: 0.6;
+	border: none;
+}
+
+.DayPicker .CalendarMonth, #app .DayPicker .CalendarMonthGrid {
+	background: transparent;
+}
+
+.DayPicker .CalendarDay__selected_span {
+	border: none;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+
+.DayPicker .DateRangePickerInput {
+	background: transparent;
+}
+
+.DayPicker .CalendarDay__default:hover {
+	opacity: 0.8;
+	border: none;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+ 
+.DayPicker .CalendarDay__selected {
+	border: none;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+ 
+.DayPicker .CalendarDay__selected:hover {
+	opacity: 0.8;
+	border: none;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+ 
+.DayPicker .CalendarDay__hovered_span:hover,
+.DayPicker .CalendarDay__hovered_span {
+	opacity: 0.8;
+	border: none;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+
+.DayPicker .DayPickerNavigation_button__default:focus, .DayPicker .DayPickerNavigation_button__default:hover {
+	border: none;
+}
+
+.saveCalenderDate .DateRangePicker .DateRangePickerInput {
+	background: linear-gradient(94.59deg, #fff, #fff) padding-box, linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) border-box;
+	border: 1px solid transparent;
+}
+
+.saveCalenderDate .DateRangePicker .DayPicker__horizontal {
+	background-color: #ffffff;
+}
+
+/* Rating */
+.dv-star-rating-star > span > svg {
+	visibility: hidden;
+}
+
+.dv-star-rating-star > span {
+	display: inline-block;
+	background-size: 12px 12px;
+	background-repeat: no-repeat;
+}
+
+.dv-star-rating-empty-star > span {
+	background-image: url('../SiteIcons/icon-star.png');
+}
+
+.dv-star-rating-full-star > span {
+	background-image: url('../SiteIcons/icon-active-star.png');
+}
+
+/* Search */
+.searchFilter .DayPicker__horizontal {
+	background-color: transparent;
+}
+
+/* Switcher */
+#app .react-switch-bg {
+	background: white !important;
+	border-radius: 30px !important;
+	border: 1px solid !important;
+}
+
+#app .react-switch-handle {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%) !important;
+}
+
+#app .checked-icon, #app .unchecked-icon {
+	color: white;
+}
+
+.searchPage .rc-pagination-item-active {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	border: none;
+}
+
+.searchPage .rc-pagination-total-text {
+	color: #383838;
+}
+
+.icheckbox_square-green.checked,
+.rc-slider-track {
+	background-color: #9153F5 !important;
+}
+
+/* Dashboard */
+#app .commonListingBg .panel-default {
+	color: rgb(0, 0, 0);
+}
+
+#app .verifyInfo .panel-default > .panel-heading,
+#app .verifyInfo .panel-default > .panel-body {
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+	padding: 0;
+	border-bottom: 1px solid;
+	padding-bottom: 12px;
+	border-image: linear-gradient(to right, #3C67FE, #9153F5) 10;
+}
+
+#app .verifyInfo .panel-default > .panel-body {
+	padding: 15px 0;
+}
+
+/* Sidebar */
+.sideMenuBorder.listLayoutArbic .sideMenuBorderBottom {
+	padding: 0;
+}
+
+/* Edit profile form */
+.edit-profile-form-container.commonListingBg .panel-body,
+.profile-photo-container.commonListingBg .panel-body {
+	background: #fff;
+	box-shadow: 0px 0px 6px 0px #00000026;
+}
+.edit-profile-form-container.commonListingBg {
+	padding: 0;
+}
+.profile-photo-container .dzInputContainer .dz-hidden-input {
+	border: 0.5px solid #9153F5;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9153F5;
+}
+
+.profile-photo-container .dzInputContainer .filepicker {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	color: #fff;
+} 
+
+.commonListingBg.reviews {
+	padding: 0px 20px 20px;
+}
+
+/* Modal */
+.ContactHost .panel .panel-body {
+	background: #fff;
+    box-shadow: 0px 2px 6px 0px #00000026;
+}
+
+.modalListingOnBizverseWorld .modal-content, .modalConfirm .modal-content {
+	background-color: transparent;
+}
+
+
+/* NFT tabs */
+#nfts-tabs .nav-tabs>li.active>a {
+	border: 1px solid transparent !important;
+	border-bottom: none !important;
+	margin-bottom: 1px;
+}
+/* #nfts-tabs .nav-tabs>li.active>a>span {
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+#nfts-tabs .nav-tabs li.active::after {
+	content: "";
+  	display: block;
+  	position: absolute;
+  	bottom: -10px;
+  	width: 100%;
+  	height: 2px;
+  	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+} */
+#nfts-tabs .nav-tabs>li>a {
+	color: rgb(0, 0, 0);
+}
+
+#nfts-tabs .nav-tabs>li>a:hover, #nfts-tabs .nav-tabs>li>a:focus {
+	border: 1px solid transparent !important;
+	border-bottom: none !important;
+	margin-bottom: 1px;
+	cursor: pointer;
+	background: transparent;
+}
+/* #nfts-tabs .nav-tabs>li>a:hover span, #nfts-tabs .nav-tabs>li>a:focus span {
+	background: linear-gradient(94.59deg, #1647f6 4.37%, #7427f0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+} */
+
+.search-nft .DateInput_1 {
+	background-color: transparent;
+	width: 172px;
+	margin-right: 30px;
+}
+
+.search-nft .DateInput .DateInput_input {
+	background: linear-gradient(90deg, white, white) padding-box, linear-gradient(to right, #3C67FE, #9153F5) border-box !important;
+	border: 1px solid transparent !important;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 19px;
+	color: #272727 !important;
+	padding: 3px 30px 0 10px !important;
+	position: relative;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.search-nft .DateInput .DateInput_input::placeholder {
+	/* color: white !important; */
+	float: left;
+	padding: 8px 0 12px 5px;
+}
+
+.search-nft .DateInput {
+	display: inline-flex;
+	align-items: center;
+}
+
+.search-nft .DateInput::after {
+	content: '';
+	position: absolute;
+	background-image: url('../SiteIcons/icon-calendar.svg');
+	z-index: 100;
+	right: 8px;
+	width: 22.5px;
+	height: 24px;
+	background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+.search-nft .DateRangePickerInput__withBorder {
+	border: none;
+	display: flex;
+}
+
+.search-nft .DateRangePicker_picker, .search-nft .DayPicker__horizontal {
+	border-radius: 6px;
+}
+
+/* Modal global loading indicator */
+.globalLoadingContainer .modal-content {
+	background: transparent;
+}
+
+/* Bootstrap */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1080px;
+	}
+}

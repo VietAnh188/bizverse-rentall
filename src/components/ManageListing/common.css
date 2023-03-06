@@ -1,0 +1,75 @@
+@import '../../components/common.css';
+.spaceRight1 {
+	margin-right: 6px;
+}
+.spaceRight2 {
+	margin-right: 12px;
+}
+.spaceRight3 {
+	margin-right: 18px;
+}
+.spaceRight4 {
+	margin-right: 24px;
+}
+.spaceRight5 {
+	margin-right: 48px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.listContainer {
+	padding: 12px 22px;
+	margin: 0px;
+	list-style-type: none;
+}
+.listContainer .panelBody:first-child {
+	padding-top: 0px;
+}
+.listContainer .panelBody:last-child {
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+.sideNavitem {
+	display: block;
+	padding:  14px 0 12px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+}
+.sideNavitem:hover,
+.sideNavitem:active,
+.sideNavitem:focus {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: #484848;
+}
+.sideMenuBtn {
+	width: 100%;
+	height: 40px;
+	border-radius: 6px;
+	min-width: 170px;
+}
+@media screen and (max-width: 768px) {
+	.smPadding {
+		padding: 0px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.smButton {
+		width: 100%
+	}
+}
+@media screen and (max-width: 1199px) {
+	.sideMenuBtn {
+		overflow: hidden;
+		word-break: break-word;
+		white-space: normal;
+	}
+}

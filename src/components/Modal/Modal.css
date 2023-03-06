@@ -1,0 +1,49 @@
+@import '../common.css';
+
+.modalContainer {
+	margin: 32px;
+	width: 100%;
+	max-width: calc(100% - 64px);
+}
+
+.modalContentWrapper {
+	min-height: 550px;
+	display: flex;
+}
+
+.listingOnBizverseWorld {
+	width: 100%;
+	height: 100%;
+}
+
+.modalCustomHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.modalContentSplitter {
+	margin: 10px 0;
+	height: 1px;
+	background: linear-gradient(94.59deg, #3C67FE 4.37%, #9153F5 100%);
+}
+
+.modalCloseIcon {
+	font-size: 22px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.modalCloseIcon:hover {
+	opacity: 0.8;
+}
+
+.titleBold {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.labelText {
+	color: rgb(0, 0, 0);
+}
